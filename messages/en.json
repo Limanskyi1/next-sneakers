@@ -1,0 +1,21 @@
+{
+  "header": {
+    "logoDesc": "Store for the best sneakers",
+    "currency": "rub.",
+    "bookmarks": "Bookmarks",
+    "orders": "Orders"
+  },
+  "sneakers": {
+    "price": "Price",
+    "currency": "rub"
+  },
+  "favorites-empty": {
+    "title": "No favorites :(",
+    "subtitle": "You haven't bookmarked anything",
+    "linkText": "Go back"
+  },
+  "emptyCart": {
+    "title": "Cart is empty :(",
+    "subtitle": "Add at least one pair of shoes to the cart"
+  }
+}

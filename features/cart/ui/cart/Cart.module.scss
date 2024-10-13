@@ -1,0 +1,21 @@
+
+
+
+.total {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.totalItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    font-size: 16px;
+    color: #000;
+    &:last-of-type {
+      font-weight: 600;
+    }
+  }
+}

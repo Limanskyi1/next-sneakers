@@ -1,0 +1,14 @@
+.langSwitcher {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span{
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+.active {
+    text-decoration: underline;
+}

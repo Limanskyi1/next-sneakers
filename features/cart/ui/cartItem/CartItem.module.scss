@@ -1,0 +1,30 @@
+.cartItem {
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img{
+    margin-right: 20px;
+  }
+}
+
+.info {
+    margin-right: 12px;
+
+  p {
+    font-size: 14px;
+    color: #000;
+  }
+  span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+}
+
+.close{
+    align-self: flex-end;
+    cursor: pointer;
+}

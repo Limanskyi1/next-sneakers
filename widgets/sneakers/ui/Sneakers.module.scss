@@ -1,0 +1,44 @@
+.sneakers {
+  border: 1px solid #f3f3f3;
+  border-radius: 40px;
+  background: #fff;
+  position: relative;
+  padding: 20px 35px;
+  & > p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+}
+
+.like {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.img{
+    margin-bottom: 15px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  span:first-of-type {
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+  }
+  span:last-of-type {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  }
+}

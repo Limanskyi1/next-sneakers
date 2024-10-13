@@ -1,0 +1,13 @@
+.head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    svg {
+      transition: 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        transform: translateX(-5px);
+      }
+    }
+  }

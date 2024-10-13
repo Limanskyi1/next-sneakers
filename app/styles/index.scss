@@ -1,0 +1,7 @@
+@import './reset.scss';
+@import './vars.scss';
+@import './container.scss';
+
+body{
+    background: var(--background-body);
+}

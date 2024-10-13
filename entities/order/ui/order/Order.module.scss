@@ -1,0 +1,16 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  span {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+  }
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}

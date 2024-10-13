@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  .text {
+    p:first-of-type {
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #000;
+    }
+    p:last-of-type {
+      font-size: 14px;
+      color: #9d9d9d;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    opacity: 0.4;
+    margin-bottom: clamp(30px, 4vw, 50px);
+  }
+  button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 17px;
+    border-radius: 18px;
+    background: #9dd458;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    svg{
+        transition: transform 0.2s ease;
+    }
+    &:hover{
+        svg{
+            transform: translateX(-4px);
+        }
+    }
+  }
+}
